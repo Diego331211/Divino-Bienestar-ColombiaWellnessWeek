@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fridoom",
-  description: "Fintech enfocada en la gestión de finanzas personales y generación de riqueza a partir de la educación financiera.",
+  title: "COLOMBIA WELLNESS WEEK",
+  description: "La Semana Más Importante del Bienestar en Latinoamérica",
 };
 
 export default function RootLayout({
