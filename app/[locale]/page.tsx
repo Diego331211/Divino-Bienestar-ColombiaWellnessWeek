@@ -16,7 +16,6 @@ export default function Home() {
       {/* Contenido */}
       <div className="relative">
         <Hero />
-        <Sponsors />
       </div>
     </>
   );
