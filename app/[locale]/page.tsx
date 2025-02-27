@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Sponsors from "./components/Sponsors";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* Contenido */}
       <div className="relative">
         <Hero />
+        <Sponsors />
       </div>
     </>
   );

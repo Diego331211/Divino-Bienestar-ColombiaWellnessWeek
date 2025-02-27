@@ -76,7 +76,7 @@ export default function Hero() {
                 />
                 <button
                     onClick={handleSubmit}
-                    className="bg-orange-400 hover:bg-blue-200 hover:text-black border shadow-lg shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto whitespace-nowrap"
+                    className="bg-orange-400 animate-bounce  hover:bg-blue-200 hover:text-black border shadow-lg shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto whitespace-nowrap"
                 >
                     {t('Register')}
                 </button>
