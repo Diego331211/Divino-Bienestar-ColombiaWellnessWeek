@@ -1,49 +1,85 @@
+'use client';
+
 // app/[locale]/components/Hero.tsx
 import { useTranslations } from 'next-intl';
 import Typewriter from './Typewriter';
+import { useState } from 'react';
 
 export default function Hero() {
     const t = useTranslations('common');
+    const [email, setEmail] = useState('');
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setEmail(e.target.value);
+    };
+
+    const handleSubmit = () => {
+        console.log('User email:', email);
+        // Aquí puedes agregar la lógica para enviar el email a una API o servicio
+    };
 
     return (
-        <section id="hero" className="py-20 px-6 sm:px-12 lg:px-20">
+        <section id="hero" className="py-20 px-6 sm:px-12 lg:px-20 dark:text-black">
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-center md:justify-start h-full text-center md:text-left space-y-6 md:space-y-0">
-                
+
                 {/* Logo */}
                 <img src="/images/Logo-16.svg" alt="logo" className="h-48 sm:h-64 md:h-80 lg:h-96 w-auto" />
 
                 {/* Contenido */}
                 <div className="px-4 max-w-[370px] sm:max-w-[200px] lg:max-w-[800px]">
                     {/* Contenedor del texto con altura fija */}
-                    <h1 className="text-2xl sm:text-3xl lg:text-5xl font-extrabold mb-4 flex flex-col items-center md:items-start min-h-[80px] sm:min-h-[100px] lg:min-h-[120px] text-center md:text-left">
-                        
+                    <h1 className="text-xl sm:text-3xl lg:text-5xl font-extrabold mb-4 flex flex-col items-center md:items-start min-h-[80px] sm:min-h-[100px] lg:min-h-[120px] text-center md:text-left">
                         <span className="inline-block max-w-full">
                             <Typewriter
                                 phrases={[
                                     t('eventName'),
                                     t('eventTagline'),
                                 ]}
-                                typingSpeed={70}
+                                typingSpeed={100}
                                 deletingSpeed={20}
-                                pauseBetween={2000}
+                                pauseBetween={5000}
                             />
                         </span>
                     </h1>
 
-                    <p className="text-base sm:text-lg lg:text-xl mb-6">
+                    <p className="text-sm md:text-lg lg:text-xl mb-6">
                         {t('eventDates')}
                     </p>
 
-                    {/* Botones (Siempre en la misma posición y tamaño) */}
-                    <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="bg-orange-400 hover:bg-blue-200 hover:text-black border shadow-lg shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto whitespace-nowrap">
+                    {/* Campo de texto y botón CTA */}
+                    <div className="hidden md:flex flex-col sm:flex-row gap-4">
+                        <input
+                            type="email"
+                            placeholder={t('EnterEmail')}
+                            value={email}
+                            onChange={handleInputChange}
+                            className="border border-black px-8 py-4 rounded-full text-base"
+                        />
+                        <button
+                            onClick={handleSubmit}
+                            className="bg-orange-400 hover:bg-blue-200 transition hover:scale-105 hover:text-black border shadow-md shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold  sm:w-auto whitespace-nowrap"
+                        >
                             {t('Register')}
-                        </button>
-                        <button className="bg-blue-400 border border-black hover:bg-orange-600 hover:text-white text-black px-8 py-3 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto whitespace-nowrap">
-                            {t('BecomeSponsor')}
                         </button>
                     </div>
                 </div>
+            </div>
+
+            {/* Campo de texto y botón CTA */}
+            <div className="flex flex-col sm:flex-row gap-4 md:hidden">
+                <input
+                    type="email"
+                    placeholder={t('EnterEmail')}
+                    value={email}
+                    onChange={handleInputChange}
+                    className="border border-black px-4 py-3 rounded-full text-base text-center sm:text-lg w-full sm:w-auto"
+                />
+                <button
+                    onClick={handleSubmit}
+                    className="bg-orange-400 hover:bg-blue-200 hover:text-black border shadow-lg shadow-gray-500 border-black text-white px-8 py-3 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto whitespace-nowrap"
+                >
+                    {t('Register')}
+                </button>
             </div>
         </section>
     );

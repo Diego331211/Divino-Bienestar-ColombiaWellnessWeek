@@ -10,9 +10,9 @@ interface TypewriterProps {
 
 export default function Typewriter({
   phrases,
-  typingSpeed = 100,
-  deletingSpeed = 100,
-  pauseBetween = 500
+  typingSpeed = 150,
+  deletingSpeed = 80,
+  pauseBetween = 2000
 }: TypewriterProps) {
   const [text, setText] = useState('');
   const [phase, setPhase] = useState<'typing' | 'deleting' | 'pause'>('typing');

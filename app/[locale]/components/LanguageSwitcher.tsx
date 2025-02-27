@@ -18,10 +18,10 @@ export default function LanguageSwitcher() {
       onMouseEnter={() => setIsLanguageOpen(true)}
       onMouseLeave={() => setIsLanguageOpen(false)}
     >
-      <button className="text-gray-700 hover:text-gray-900 border border-black py-4 px-6 rounded-full flex">
+      <button className="text-gray-700 hover:text-gray-900 border border-black py-2 px-4 rounded-full flex">
         Language
         <svg
-          className="ml-2 w-3 h-auto fill-current text-black"
+          className="ml-2 w-3 h-6 fill-current text-black"
           viewBox="0 0 10 6"
           xmlns="http://www.w3.org/2000/svg"
         >

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './LanguageSwitcher';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Header() {
   const t = useTranslations('common');
@@ -14,7 +14,7 @@ export default function Header() {
 
         <FontAwesomeIcon icon={faInstagram} className='h-12' />
         <FontAwesomeIcon icon={faTiktok} className='h-12' />
-        <FontAwesomeIcon icon={faTwitter} className='h-12' />
+        <FontAwesomeIcon icon={faXTwitter} className='h-12' />
 
 
         {/* Selector de idioma */}

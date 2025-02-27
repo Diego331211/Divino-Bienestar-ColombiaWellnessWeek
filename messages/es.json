@@ -1,19 +1,20 @@
 {
   "common": {
     "BecomeSponsor":"Sé patrocinador",
-    "Register": "Registrarse",
+    "Register": "Entérate primero!",
     "comingSoon": "Próximamente",
     "eventName": "COLOMBIA WELLNESS WEEK 2025",
-    "eventTagline": "La Semana Más Importante del Bienestar en Latinoamérica",
-    "eventDates": "10-17 de Noviembre | Bogotá - Cali - Cartagena - Medellín",
+    "eventTagline": "La semana más importante del bienestar en LATAM",
+    "eventDates": "10-17 de Noviembre | Bogotá, Colombia",
     "navHome": "Inicio",
     "navAbout": "Acerca de",
     "navContact": "Contacto",
-    "footerText": "Todos los derechos reservados © 2025",
+    "footerText": "Todos los derechos reservados",
     "footerDisclaimer": "Un evento único que posiciona a Colombia como epicentro del bienestar.",
     "contactName": "Fabian Garzón, Co-fundador",
     "contactEmail": "info@colombiawellnessweek.com",
     "contactWebsite": "www.colombiawellnessweek.com",
-    "contactSocial": "@ColombiaWellnessWeek"
+    "contactSocial": "@ColombiaWellnessWeek",
+    "EnterEmail": "Ingresa tu correo electrónico"
   }
 }
