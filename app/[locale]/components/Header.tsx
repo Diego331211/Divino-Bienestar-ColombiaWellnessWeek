@@ -4,17 +4,22 @@ import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './LanguageSwitcher';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Importa el ícono de correo
 
 export default function Header() {
   const t = useTranslations('common');
 
   return (
     <header className="bg-transparent text-black py-4 ">
-      <div className="container mx-auto flex items-center gap-8 px-12">
+      <div className="container mx-auto flex items-center gap-4 px-10">
 
-        <FontAwesomeIcon icon={faInstagram} className='h-12' />
-        <FontAwesomeIcon icon={faTiktok} className='h-12' />
-        <FontAwesomeIcon icon={faXTwitter} className='h-12' />
+        <FontAwesomeIcon icon={faInstagram} className='h-8' />
+        <FontAwesomeIcon icon={faTiktok} className='h-8' />
+        <FontAwesomeIcon icon={faXTwitter} className='h-8' />
+        {/* Ícono de correo con enlace */}
+        <a href="mailto:colombiawellnessweek2025@gmail.com" title="Enviar correo">
+          <FontAwesomeIcon icon={faEnvelope} className="h-7" />
+        </a>
 
         {/* Logo */}
 
