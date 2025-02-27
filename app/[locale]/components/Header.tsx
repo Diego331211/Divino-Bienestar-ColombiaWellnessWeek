@@ -16,6 +16,8 @@ export default function Header() {
         <FontAwesomeIcon icon={faTiktok} className='h-12' />
         <FontAwesomeIcon icon={faXTwitter} className='h-12' />
 
+        {/* Logo */}
+
 
         {/* Selector de idioma */}
         <LanguageSwitcher />
