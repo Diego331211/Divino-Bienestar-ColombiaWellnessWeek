@@ -1,9 +1,10 @@
 import Hero from "./components/Hero";
-import DataSections from "./components/datasections";
 import CitySection from "./components/citysection";
 import CounterSection from "./components/counter-section";
-import EventTimeline from "./components/timeline";
+import DataSections from "./components/datasections";
+import EndSection from "./components/end";
 import SponsorshipTiers from "./components/sponsor-ships";
+import EventTimeline from "./components/timeline";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <CounterSection />
         <EventTimeline />
         <SponsorshipTiers />
+        <EndSection />
       </div>
     </>
   );
