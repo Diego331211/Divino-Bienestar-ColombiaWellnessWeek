@@ -51,5 +51,66 @@
     "startupsText": "De Latinoamérica y Europa participando en el evento.",
     "years": "Años de experiencia",
     "yearsText": "Inspirando a emprendedores con formatos de conexión e intercambio de conocimiento."
+  },
+  "events": {
+    "march": "Marzo",
+    "april": "Abril",
+    "june": "Junio",
+    "july": "Julio",
+    "september": "Septiembre",
+    "november": "Noviembre"
+  },
+  "sections": {
+    "retreatsAndConferences": {
+      "title": "Retiros y Conferencias",
+      "items": [
+        "Retiros de yoga y meditación",
+        "Conferencias con expertos en salud y bienestar",
+        "Networking con inversionistas internacionales"
+      ]
+    },
+    "startupsAndBusiness": {
+      "title": "Startups y Negocios",
+      "items": [
+        "Demo days de startups de wellness",
+        "Misión de startups internacionales",
+        "Rueda de negocios con inversionistas"
+      ]
+    }
+  },
+  "tiers": {
+    "silver": {
+      "title": "Patrocinador Plata",
+      "benefits": [
+        "Reconocimiento en el sitio web",
+        "Mención en redes sociales",
+        "Inclusión en el programa del evento"
+      ]
+    },
+    "experiential": {
+      "title": "Patrocinador Experiencial",
+      "benefits": [
+        "Activaciones de marca",
+        "Experiencias inmersivas para asistentes",
+        "7 accesos VIP"
+      ]
+    },
+    "full": {
+      "title": "Patrocinador Full",
+      "benefits": [
+        "10 accesos VIP",
+        "3 impactos en redes",
+        "Visibilidad en medios y conferencias"
+      ]
+    },
+    "platinum": {
+      "title": "Patrocinador Platino",
+      "benefits": [
+        "Conferencias exclusivas",
+        "Branding destacado en zonas VIP",
+        "Videos promocionales",
+        "Acceso a eventos de alto nivel"
+      ]
+    }
   }
 }

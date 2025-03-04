@@ -51,5 +51,67 @@
     "startupsText": "From Latin America and Europe participating in the event.",
     "years": "Years of experience",
     "yearsText": "Inspiring entrepreneurs with connection formats and knowledge exchange."
+  },
+  "events": {
+    "march": "March",
+    "april": "April",
+    "june": "June",
+    "july": "July",
+    "september": "September",
+    "october": "October",
+    "november": "November"
+  },
+  "sections": {
+    "retreatsAndConferences": {
+      "title": "Retreats and Conferences",
+      "items": [
+        "Yoga and meditation retreats",
+        "Conferences with health and wellness experts",
+        "Networking with international investors"
+      ]
+    },
+    "startupsAndBusiness": {
+      "title": "Startups and Business",
+      "items": [
+        "Wellness startup demo days",
+        "International startup mission",
+        "Business matchmaking with investors"
+      ]
+    }
+  },
+  "tiers": {
+    "silver": {
+      "title": "Silver Sponsor",
+      "benefits": [
+        "Recognition on the website",
+        "Mention on social media",
+        "Inclusion in the event program"
+      ]
+    },
+    "experiential": {
+      "title": "Experiential Sponsor",
+      "benefits": [
+        "Brand activations",
+        "Immersive experiences for attendees",
+        "7 VIP accesses"
+      ]
+    },
+    "full": {
+      "title": "Full Sponsor",
+      "benefits": [
+        "10 VIP accesses",
+        "3 social media impacts",
+        "Media and conference visibility"
+      ]
+    },
+    "platinum": {
+      "title": "Platinum Sponsor",
+      "benefits": [
+        "Exclusive conferences",
+        "Premium branding in VIP areas",
+        "Promotional videos",
+        "Access to high-level events"
+      ]
+    }
   }
 }
