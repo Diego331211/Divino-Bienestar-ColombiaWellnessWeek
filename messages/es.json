@@ -1,6 +1,6 @@
 {
   "common": {
-    "BecomeSponsor":"Sé patrocinador",
+    "BecomeSponsor": "Sé patrocinador",
     "Register": "Entérate primero!",
     "comingSoon": "Próximamente",
     "eventName": "COLOMBIA WELLNESS WEEK 2025",
@@ -40,5 +40,16 @@
   "cities": {
     "title": "CIUDADES PARTICIPANTES",
     "bogota": "Bogotá"
+  },
+  "counter": {
+    "title": "LA SEMANA MÁS IMPORTANTE DEL BIENESTAR EN LATINOAMÉRICA",
+    "assistants": "Asistentes",
+    "assistantsText": "Emprendedores, inversionistas, expertos en bienestar y salud.",
+    "allies": "Aliados del ecosistema",
+    "alliesText": "Startups de bienestar, inversionistas, aceleradoras, gobierno, corporativos.",
+    "startups": "Startups de bienestar",
+    "startupsText": "De Latinoamérica y Europa participando en el evento.",
+    "years": "Años de experiencia",
+    "yearsText": "Inspirando a emprendedores con formatos de conexión e intercambio de conocimiento."
   }
 }

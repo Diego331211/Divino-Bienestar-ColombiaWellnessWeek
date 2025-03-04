@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import DataSections from "./components/datasections";
 import CitySection from "./components/citysection";
+import CounterSection from "./components/counter-section";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <DataSections />
         <CitySection />
+        <CounterSection />
       </div>
     </>
   );

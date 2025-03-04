@@ -1,6 +1,6 @@
 {
   "common": {
-    "BecomeSponsor":"Become Sponsor",
+    "BecomeSponsor": "Become Sponsor",
     "Register": "Be the first to know!",
     "comingSoon": "Coming Soon",
     "eventName": "COLOMBIA WELLNESS WEEK 2025",
@@ -40,5 +40,16 @@
   "cities": {
     "title": "PARTICIPATING CITIES",
     "bogota": "Bogota"
+  },
+  "counter": {
+    "title": "THE MOST IMPORTANT WEEK OF WELLNESS IN LATIN AMERICA",
+    "assistants": "Assistants",
+    "assistantsText": "Entrepreneurs, investors, wellness and health experts.",
+    "allies": "Ecosystem allies",
+    "alliesText": "Wellness startups, investors, accelerators, government, corporations.",
+    "startups": "Wellness startups",
+    "startupsText": "From Latin America and Europe participating in the event.",
+    "years": "Years of experience",
+    "yearsText": "Inspiring entrepreneurs with connection formats and knowledge exchange."
   }
 }

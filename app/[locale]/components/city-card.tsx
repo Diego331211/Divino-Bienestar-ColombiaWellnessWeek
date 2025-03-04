@@ -11,14 +11,14 @@ interface CityCardProps {
 export default function CityCard({ name, image }: CityCardProps) {
   return (
     <motion.div
-      className="relative overflow-hidden rounded-xl group"
+      className="relative overflow-hidden rounded-xl max-w-96 mx-auto"
       initial={{ opacity: 0, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       whileHover={{ scale: 1.03 }}
     >
-      <div className="aspect-[4/3] relative">
+      <div className={`aspect-square relative`}>
         <Image
           src={image || "/placeholder.svg"}
           alt={name}
