@@ -18,5 +18,27 @@
     "EnterEmail": "e-mail",
     "ourSponsors": "Nossos patrocinadores",
     "ourPartners": "Nossos aliados"
+  },
+  "epicenter": {
+    "title": "COLÔMBIA: O NOVO ",
+    "titleHighlight": "EPICENTRO DO BEM-ESTAR",
+    "statsTitle": "Investimento em Bem-Estar por País",
+    "stats1Number": "TOP 3",
+    "stats1Text": "na América Latina em turismo de bem-estar",
+    "stats1Source": "(Global Wellness Institute, 2023)",
+    "stats2Number": "+500",
+    "stats2Text": "eventos anuais de saúde e bem-estar no país",
+    "stats3Number": "30%",
+    "stats3Text": "Crescimento acelerado em turismo e experiências de bem-estar",
+    "colombiaStat": "30%",
+    "mexicoStat": "25%",
+    "costaRicaStat": "20%",
+    "brasilStat": "15%",
+    "peruStat": "10%",
+    "foreignInvestment": "+30% dos investimentos em bem-estar na Colômbia vêm de capital estrangeiro."
+  },
+  "cities": {
+    "title": "CIDADES PARTICIPANTES",
+    "bogota": "Bogotá"
   }
 }

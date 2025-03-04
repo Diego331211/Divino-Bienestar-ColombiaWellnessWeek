@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
-import Sponsors from "./components/Sponsors";
+import DataSections from "./components/datasections";
+import CitySection from "./components/citysection";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       {/* Contenido */}
       <div className="relative">
         <Hero />
+        <DataSections />
+        <CitySection />
       </div>
     </>
   );

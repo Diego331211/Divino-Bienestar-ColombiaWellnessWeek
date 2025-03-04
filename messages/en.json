@@ -18,5 +18,27 @@
     "EnterEmail": "Enter your email",
     "ourSponsors": "Our Sponsors",
     "ourPartners": "Our Partners"
+  },
+  "epicenter": {
+    "title": "COLOMBIA IS THE NEW ",
+    "titleHighlight": "WELLNESS EPICENTER",
+    "statsTitle": "Investment in Wellness by Country",
+    "stats1Number": "TOP 3",
+    "stats1Text": "in Latin America in wellness tourism",
+    "stats1Source": "(Global Wellness Institute, 2023)",
+    "stats2Number": "+500",
+    "stats2Text": "annual health and wellness events in the country",
+    "stats3Number": "30%",
+    "stats3Text": "Accelerated growth in wellness tourism and experiences",
+    "colombiaStat": "30%",
+    "mexicoStat": "25%",
+    "costaRicaStat": "20%",
+    "brasilStat": "15%",
+    "peruStat": "10%",
+    "foreignInvestment": "+30% of wellness investments in Colombia come from foreign capital."
+  },
+  "cities": {
+    "title": "PARTICIPATING CITIES",
+    "bogota": "Bogota"
   }
 }
