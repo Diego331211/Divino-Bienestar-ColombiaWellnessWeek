@@ -43,11 +43,6 @@ export default function EventTimeline() {
   return (
     <div className="relative px-4 sm:px-6 py-8">
       <div className="container mx-auto px-4">
-        {/* Timeline line - hidden on small screens, visible from md up */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 text-center">
-          AGENDA IMPERDIBLE
-        </h2>
-        <p className="text-xl text-slate-700 text-center">10-17 DE NOVIEMBRE 2025</p>
         <div className="w-20 h-1 bg-orange-400 mx-auto mt-4"></div>
         <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-orange-200"></div>
         <div className="space-y-12">

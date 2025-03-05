@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-transparent text-black py-12">
       <div className="container mx-auto px-6 text-center flex flex-col items-center space-y-6">
-        
+
         {/* Íconos de Redes Sociales */}
         <div className="flex space-x-6 text-2xl">
           <a href="https://instagram.com/ColombiaWellnessWeek" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="space-y-2 text-sm">
           <p className="text-gray-600">
             <a href="mailto:info@colombiawellnessweek.com" className="hover:text-black">
-              info@colombiawellnessweek.com
+              Colombiawellnesseeek2025@gmail.com
             </a>
           </p>
         </div>

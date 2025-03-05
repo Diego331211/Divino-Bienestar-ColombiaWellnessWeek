@@ -17,7 +17,7 @@ export default function Header() {
         <FontAwesomeIcon icon={faTiktok} className='h-8' />
         <FontAwesomeIcon icon={faXTwitter} className='h-8' />
         {/* Ícono de correo con enlace */}
-        <a href="mailto:colombiawellnessweek2025@gmail.com" title="Enviar correo">
+        <a href="mailto:Colombiawellnesseeek2025@gmail.com" title="Enviar correo">
           <FontAwesomeIcon icon={faEnvelope} className="h-7" />
         </a>
 
