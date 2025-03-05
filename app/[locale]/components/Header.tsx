@@ -10,7 +10,7 @@ export default function Header() {
   const t = useTranslations('common');
 
   return (
-    <header className="bg-transparent text-black py-4 ">
+    <header className="bg-transparent text-black py-4 fixed top-0 left-0 w-full z-50 backdrop-blur-md">
       <div className="container mx-auto flex items-center gap-4 px-10">
 
         <FontAwesomeIcon icon={faInstagram} className='h-8' />

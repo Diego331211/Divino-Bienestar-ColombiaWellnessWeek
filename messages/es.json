@@ -117,5 +117,37 @@
     "title": "PONER A COLOMBIA COMO EL EPICENTRO DEL BIENESTAR EN LATINOAMÉRICA",
     "description": "✨ Haz parte del evento que posicionará a Colombia como el destino líder en bienestar en Latinoamérica.",
     "register": "Registrarse"
+  },
+  "register": {
+    "registerTitle": "Regístrate para el evento Viva la Vida",
+    "registerSubtitle": "Completa tus datos y sé el primero en enterarte de las novedades.",
+    "fullNameLabel": "Nombre completo",
+    "fullNamePlaceholder": "Tu nombre completo",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tucorreo@ejemplo.com",
+    "phoneLabel": "Número de teléfono",
+    "phonePlaceholder": "573000000000",
+    "cityLabel": "Ciudad de residencia",
+    "cityPlaceholder": "Bogotá",
+    "interestsLabel": "Intereses en bienestar",
+    "interestsPlaceholder": "Fitness, nutrición, mindfulness...",
+    "registerCta": "Regístrate"
+  },
+  "sponsors": {
+    "sponsorsTitle": "Inscripción para Patrocinadores",
+    "sponsorsSubtitle": "Completa la siguiente información para ser considerado como patrocinador.",
+    "companyNameLabel": "Nombre de la empresa",
+    "companyNamePlaceholder": "Ej. MiEmpresa S.A.",
+    "representativeNameLabel": "Nombre del representante",
+    "representativeNamePlaceholder": "Ej. Juan Pérez",
+    "representativeRoleLabel": "Cargo en la empresa",
+    "representativeRolePlaceholder": "Ej. Director de Marketing",
+    "contactEmailLabel": "Correo electrónico de contacto",
+    "contactEmailPlaceholder": "correo@miempresa.com",
+    "contactPhoneLabel": "Teléfono de contacto",
+    "contactPhonePlaceholder": "573001234567",
+    "sponsorshipTypeLabel": "Tipo de patrocinio de interés",
+    "sponsorshipTypePlaceholder": "Ej. Platinum, Gold, Silver",
+    "sponsorsCta": "Enviar Solicitud"
   }
 }

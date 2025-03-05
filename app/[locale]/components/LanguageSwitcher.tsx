@@ -1,14 +1,19 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 export default function LanguageSwitcher() {
   const router = useRouter();
+  const pathname = usePathname();
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   const changeLocale = (locale: string) => {
-    router.push(`/${locale}`);
+    const segments = pathname.split('/');
+    // Asume que el primer segmento es el locale actual
+    segments[1] = locale;
+    const newPath = segments.join('/');
+    router.push(newPath);
     setIsLanguageOpen(false);
   };
 

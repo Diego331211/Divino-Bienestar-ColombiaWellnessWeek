@@ -118,5 +118,37 @@
     "title": "MAKING COLOMBIA THE WELLNESS EPICENTER IN LATIN AMERICA",
     "description": "✨ Be part of the event that will position Colombia as the leading wellness destination in Latin America.",
     "register": "Register"
+  },
+  "register": {
+    "registerTitle": "Register for the Viva la Vida event",
+    "registerSubtitle": "Fill out your details and be the first to hear the news.",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "yourmail@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "1234567890",
+    "cityLabel": "City of Residence",
+    "cityPlaceholder": "New York",
+    "interestsLabel": "Wellness Interests",
+    "interestsPlaceholder": "Fitness, nutrition, mindfulness...",
+    "registerCta": "Register"
+  },
+  "sponsors": {
+    "sponsorsTitle": "Sponsor Registration",
+    "sponsorsSubtitle": "Complete the following information to be considered as a sponsor.",
+    "companyNameLabel": "Company Name",
+    "companyNamePlaceholder": "e.g., MyCompany Inc.",
+    "representativeNameLabel": "Representative Name",
+    "representativeNamePlaceholder": "e.g., John Doe",
+    "representativeRoleLabel": "Job Title",
+    "representativeRolePlaceholder": "e.g., Marketing Director",
+    "contactEmailLabel": "Contact Email",
+    "contactEmailPlaceholder": "email@mycompany.com",
+    "contactPhoneLabel": "Contact Phone",
+    "contactPhonePlaceholder": "11234567890",
+    "sponsorshipTypeLabel": "Type of Sponsorship Interested",
+    "sponsorshipTypePlaceholder": "e.g., Platinum, Gold, Silver",
+    "sponsorsCta": "Submit Application"
   }
 }

@@ -117,5 +117,37 @@
     "title": "TORNAR A COLÔMBIA O EPICENTRO DO BEM-ESTAR NA AMÉRICA LATINA",
     "description": "✨ Participe do evento que posicionará a Colômbia como o principal destino de bem-estar na América Latina.",
     "register": "Registrar-se"
+  },
+  "register": {
+    "registerTitle": "Cadastre-se para o evento Viva la Vida",
+    "registerSubtitle": "Preencha seus dados e seja o primeiro a saber das novidades.",
+    "fullNameLabel": "Nome completo",
+    "fullNamePlaceholder": "Seu nome completo",
+    "emailLabel": "Email",
+    "emailPlaceholder": "seuemail@exemplo.com",
+    "phoneLabel": "Número de telefone",
+    "phonePlaceholder": "5521987654321",
+    "cityLabel": "Cidade de residência",
+    "cityPlaceholder": "Rio de Janeiro",
+    "interestsLabel": "Interesses em bem-estar",
+    "interestsPlaceholder": "Fitness, nutrição, mindfulness...",
+    "registerCta": "Cadastre-se"
+  },
+  "sponsors": {
+    "sponsorsTitle": "Inscrição para Patrocinadores",
+    "sponsorsSubtitle": "Preencha as informações abaixo para ser considerado como patrocinador.",
+    "companyNameLabel": "Nome da Empresa",
+    "companyNamePlaceholder": "Ex.: MinhaEmpresa Ltda.",
+    "representativeNameLabel": "Nome do Representante",
+    "representativeNamePlaceholder": "Ex.: João Silva",
+    "representativeRoleLabel": "Cargo na Empresa",
+    "representativeRolePlaceholder": "Ex.: Diretor de Marketing",
+    "contactEmailLabel": "Email para Contato",
+    "contactEmailPlaceholder": "email@minhaempresa.com",
+    "contactPhoneLabel": "Telefone para Contato",
+    "contactPhonePlaceholder": "55 11 1234 5678",
+    "sponsorshipTypeLabel": "Tipo de Patrocínio de Interesse",
+    "sponsorshipTypePlaceholder": "Ex.: Platinum, Gold, Silver",
+    "sponsorsCta": "Enviar Inscrição"
   }
 }

@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import MyButton from "./MyButton";
 import { useTranslations } from "next-intl";
+import { useRouter, useParams } from 'next/navigation';
 
 export default function SponsorshipTiers() {
+  const { locale } = useParams();
   const t = useTranslations("tiers");
   const tiers = [
     {
@@ -71,7 +73,7 @@ export default function SponsorshipTiers() {
                   ))}
                 </ul>
                 <MyButton
-                  href="/sponsors"
+                  href={`/${locale}/sponsors`}
                   className={`w-full text-white mt-6 ${
                     tier.featured
                       ? "bg-orange-500 hover:bg-orange-600"
