@@ -3,6 +3,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import StatsCard from "./stats-card";
+import Item3D from "./Item3D";
 
 export default function EpicenterPage() {
   // Hook para traducir con el namespace "epicenter"
@@ -21,7 +22,7 @@ export default function EpicenterPage() {
 
           {/* Separador */}
           <div className="w-20 h-1 bg-orange-400 mx-auto md:mx-0 mb-8"></div>
-
+          <Item3D url="/images/yoga-3d-rendering-icon-illustration-free-png.webp" enableRotation={true} />
           {/* Grid de estadísticas */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <StatsCard

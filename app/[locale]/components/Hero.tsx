@@ -1,9 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Typewriter from './Typewriter';
+import { useParams, useRouter } from 'next/navigation';
 import { useState } from 'react';
-import { useRouter, useParams } from 'next/navigation';
+import Logo from './Logo';
+import Typewriter from './Typewriter';
 
 export default function Hero() {
     const t = useTranslations('common');
@@ -25,8 +26,7 @@ export default function Hero() {
         <section id="hero" className="py-20 px-6 sm:px-12 lg:px-20 dark:text-black">
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-center md:justify-start h-full text-center md:text-left space-y-6 md:space-y-0">
                 {/* Logo */}
-                <img src="/images/Logo-16.svg" alt="logo" className="h-48 sm:h-64 md:h-80 lg:h-96 w-auto" />
-
+                <Logo />
                 {/* Contenido */}
                 <div className="px-4 max-w-[370px] sm:max-w-[200px] lg:max-w-[800px]">
                     {/* Contenedor del texto con altura fija */}

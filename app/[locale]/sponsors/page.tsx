@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation';
 
 export default function SponsorsForm() {
   const t = useTranslations('sponsors');
@@ -14,6 +15,7 @@ export default function SponsorsForm() {
   const [sponsorshipType, setSponsorshipType] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const router = useRouter()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -48,6 +50,7 @@ export default function SponsorsForm() {
       setContactEmail('');
       setContactPhone('');
       setSponsorshipType('');
+      router.push('/')
     } catch (error) {
       console.error('Error al enviar datos:', error);
       setMessage('Ocurrió un error al enviar los datos.');

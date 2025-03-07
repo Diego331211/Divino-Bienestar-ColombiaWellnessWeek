@@ -26,8 +26,8 @@ export default function Footer() {
         {/* Información de contacto */}
         <div className="space-y-2 text-sm">
           <p className="text-gray-600">
-            <a href="mailto:info@colombiawellnessweek.com" className="hover:text-black">
-              Colombiawellnesseeek2025@gmail.com
+            <a href="mailto:colombiawellnessweek2025@gmail.com" className="hover:text-black">
+              colombiawellnessweek2025@gmail.com
             </a>
           </p>
         </div>

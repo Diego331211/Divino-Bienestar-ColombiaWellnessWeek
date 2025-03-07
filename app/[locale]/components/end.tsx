@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import MyButton from "./MyButton";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 export default function EndSection() {
   const t = useTranslations("endSection");
+  const { locale } = useParams(); // Asegúrate de que la ruta incluya :locale
 
   return (
     <footer className="py-20 bg-dark-background text-white">
@@ -17,10 +19,12 @@ export default function EndSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">{t("title")}</h2>
+          <a href={`/${locale}/register`}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t("title")}</h2>
+          </a>
           <p className="text-xl mb-8">{t("description")}</p>
           <MyButton
-            href="/register"
+            href={`/${locale}/register`}
             className="bg-orange-500 hover:bg-orange-600 text-white"
           >
             {t("register")} <ArrowRight className="ml-2 h-4 w-4" />

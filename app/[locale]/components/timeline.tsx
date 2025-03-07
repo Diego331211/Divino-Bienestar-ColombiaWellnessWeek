@@ -35,7 +35,7 @@ export default function EventTimeline() {
     {
       month: t("november"),
       event: "Colombia Wellness Week",
-      location: "Bogotá, Medellín, Cartagena, Cali",
+      location: "Bogotá",
       highlight: true,
     },
   ];

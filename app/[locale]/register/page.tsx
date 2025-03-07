@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation';
 
 export default function RegisterSection() {
   const t = useTranslations('register');
@@ -13,6 +14,7 @@ export default function RegisterSection() {
   const [interests, setInterests] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const router = useRouter()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -41,6 +43,7 @@ export default function RegisterSection() {
       setPhone('');
       setCity('');
       setInterests('');
+      router.push('/')
     } catch (error) {
       console.error('Error al enviar datos:', error);
       setMessage('Ocurrió un error al enviar los datos.');
