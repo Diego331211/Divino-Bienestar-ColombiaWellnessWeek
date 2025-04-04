@@ -81,36 +81,74 @@
   },
   "tiers": {
     "silver": {
+      "name": "Diamond",
       "title": "Silver Sponsor",
       "benefits": [
-        "Recognition on the website",
-        "Mention on social media",
-        "Inclusion in the event program"
+        "Mention in press release and media",
+        "Access to attendee database",
+        "Space in Silver Village",
+        "10 VIP Accesses",
+        "Tickets for executives/guests",
+        "Presence in digital strategy",
+        "Logo in event branding",
+        "Mention and logo in networking events",
+        "Pre-event networking space"
       ]
     },
     "experiential": {
+      "name": "Gold",
       "title": "Experiential Sponsor",
       "benefits": [
-        "Brand activations",
-        "Immersive experiences for attendees",
-        "7 VIP accesses"
+        "Mention in press release and media",
+        "Access to attendee database",
+        "Space in Silver Village",
+        "6 VIP Accesses",
+        "Tickets for executives/guests",
+        "Presence in digital strategy",
+        "Logo in event branding",
+        "Mention and logo in networking events",
+        "Pre-event networking space"
       ]
     },
     "full": {
+      "name": "Silver",
       "title": "Full Sponsor",
       "benefits": [
-        "10 VIP accesses",
-        "3 social media impacts",
-        "Media and conference visibility"
+        "Mention in press release and media",
+        "Access to attendee database",
+        "Space in Silver Village",
+        "4 VIP Accesses",
+        "Tickets for executives/guests",
+        "Presence in digital strategy",
+        "Logo in event branding",
+        "Mention and logo in networking events",
+        "Pre-event networking space"
       ]
     },
     "platinum": {
+      "name": "Bronze",
       "title": "Platinum Sponsor",
       "benefits": [
-        "Exclusive conferences",
-        "Premium branding in VIP areas",
-        "Promotional videos",
-        "Access to high-level events"
+        "Mention in press release and media",
+        "Access to attendee database",
+        "Space in Silver Village",
+        "2 VIP Accesses",
+        "Tickets for executives/guests",
+        "Presence in digital strategy",
+        "Logo in event branding",
+        "Mention and logo in networking events",
+        "Pre-event networking space"
+      ]
+    },
+    "community": {
+      "name": "Community",
+      "title": "Platinum Sponsor",
+      "benefits": [
+        "Mention in press release and media",
+        "Space in Silver Village",
+        "Presence in digital strategy",
+        "2 VIP Accesses",
+        "Logo in event branding"
       ]
     }
   },

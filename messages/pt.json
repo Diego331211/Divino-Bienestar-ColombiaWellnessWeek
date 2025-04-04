@@ -80,36 +80,74 @@
   },
   "tiers": {
     "silver": {
+      "name": "Diamante",
       "title": "Patrocinador Prata",
       "benefits": [
-        "Reconhecimento no site",
-        "Menção nas redes sociais",
-        "Inclusão no programa do evento"
+        "Menção em comunicado de imprensa e mídia",
+        "Acesso ao banco de dados de participantes",
+        "Espaço no Silver Village",
+        "10 Acessos VIP",
+        "Ingressos para executivos/convidados",
+        "Presença na estratégia digital",
+        "Logo na identidade visual do evento",
+        "Menção e logo em eventos de networking",
+        "Espaço de networking pré-evento"
       ]
     },
     "experiential": {
+      "name": "Ouro",
       "title": "Patrocinador Experiencial",
       "benefits": [
-        "Ativações de marca",
-        "Experiências imersivas para participantes",
-        "7 acessos VIP"
+        "Menção em comunicado de imprensa e mídia",
+        "Acesso ao banco de dados de participantes",
+        "Espaço no Silver Village",
+        "6 Acessos VIP",
+        "Ingressos para executivos/convidados",
+        "Presença na estratégia digital",
+        "Logo na identidade visual do evento",
+        "Menção e logo em eventos de networking",
+        "Espaço de networking pré-evento"
       ]
     },
     "full": {
-      "title": "Patrocinador Completo",
+      "name": "Prata",
+      "title": "Patrocinador Full",
       "benefits": [
-        "10 acessos VIP",
-        "3 impactos nas redes",
-        "Visibilidade na mídia e conferências"
+        "Menção em comunicado de imprensa e mídia",
+        "Acesso ao banco de dados de participantes",
+        "Espaço no Silver Village",
+        "4 Acessos VIP",
+        "Ingressos para executivos/convidados",
+        "Presença na estratégia digital",
+        "Logo na identidade visual do evento",
+        "Menção e logo em eventos de networking",
+        "Espaço de networking pré-evento"
       ]
     },
     "platinum": {
+      "name": "Bronze",
       "title": "Patrocinador Platina",
       "benefits": [
-        "Conferências exclusivas",
-        "Branding destacado em áreas VIP",
-        "Vídeos promocionais",
-        "Acesso a eventos de alto nível"
+        "Menção em comunicado de imprensa e mídia",
+        "Acesso ao banco de dados de participantes",
+        "Espaço no Silver Village",
+        "2 Acessos VIP",
+        "Ingressos para executivos/convidados",
+        "Presença na estratégia digital",
+        "Logo na identidade visual do evento",
+        "Menção e logo em eventos de networking",
+        "Espaço de networking pré-evento"
+      ]
+    },
+    "community": {
+      "name": "Comunidade",
+      "title": "Patrocinador Platina",
+      "benefits": [
+        "Menção em comunicado de imprensa e mídia",
+        "Espaço no Silver Village",
+        "Presença na estratégia digital",
+        "2 Acessos VIP",
+        "Logo na identidade visual do evento"
       ]
     }
   },
