@@ -39,31 +39,31 @@ export default function Hero() {
 
     // Semicírculo abierto hacia la derecha
     const generateRightSemiCirclePositions = (radius: number, count: number) => {
-        const angleStep = Math.PI / (count - 1); // De 0 a PI
+        const angleStep = (Math.PI*1.1) / (count - 0.0001); // De 0 a PI
         return Array.from({ length: count }, (_, i) => {
             const angle = angleStep * i;
             return {
-                x: radius * Math.sin(angle), // horizontal (abre a la derecha)
-                y: radius * Math.cos(angle) - radius / 2, // vertical (centrado)
+                x: (radius*1.4 * Math.sin(angle))-220, // horizontal (abre a la derecha)
+                y: radius * Math.cos(angle) - radius / 30, // vertical (centrado)
             };
         });
     };
 
     // Posiciones manuales (mobile)
     const circlePositions = [
-        { x: 90, y: 180 },
+        { x: -100, y: 100 },
         { x: -135, y: -10 },
         { x: 90, y: -90 },
         { x: 135, y: -10 },
         { x: -130, y: -90 },
-        { x: 80, y: 120 },
-        { x: -130, y: 170 },
+        { x: 80, y: 100 },
+        { x: -20, y: 150 },
         { x: -20, y: -140 },
     ];
 
     const posiciones = isMobile
         ? circlePositions
-        : generateRightSemiCirclePositions(containerSize / 2.9, bienestarIcons.length);
+        : generateRightSemiCirclePositions((containerSize) / 2.1, 8);
 
     return (
         <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-4">
@@ -74,7 +74,7 @@ export default function Hero() {
                     className={`relative ${isMobile ? 'w-[420px] h-[300px]' : 'w-[605px] h-[600px]'}`}
                 >
                     {/* Logo */}
-                    <div className="absolute left-1/2 top-1/2 md:left-1/4 md:top-1/2 -translate-x-1/2 -translate-y-1/2 w-[120px] h-[120px] md:w-[250px] md:h-[250px]">
+                    <div className="absolute left-1/2 top-1/2 md:left-1/4 md:top-1/2 -translate-x-1/2 -translate-y-1/2 w-[120px] h-[120px] md:w-[370px] md:h-[370px]">
                         <Image src={logo} alt="Viva la Vida logo" fill className="object-contain" />
                     </div>
 
@@ -84,14 +84,14 @@ export default function Hero() {
                         return (
                             <div
                                 key={index}
-                                className="absolute float-animation fade-loop flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-full text-white text-xs font-medium shadow-md break-words whitespace-normal max-w-[195px]"
+                                className="absolute float-animation fade-loop flex items-center gap-2 px-2 py-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full text-white text-xs font-thin shadow-md break-words whitespace-normal max-w-[200px]"
                                 style={{
                                     left: `calc(50% + ${x}px - 70px)`,
                                     top: `calc(50% + ${y}px - 20px)`,
                                     animationDelay: `${index * 0.2}s`,
                                 }}
                             >
-                                <span className="md:text-4xl">{icon}</span>
+                                <span className="text-xs font-thin md:text-4xl">{icon}</span>
                                 <span>{label}</span>
                             </div>
                         );
@@ -100,7 +100,7 @@ export default function Hero() {
 
                 {/* Lado derecho: Registro */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left gap-4 px-2">
-                    <h1 className="text-4xl sm:text-5xl font-bold text-black">Colombia Wellness Week</h1>
+                    <h1 className="text-4xl sm:text-5xl font-bold text-green-900">Colombia Wellness Week</h1>
                     <p className="text-md sm:text-lg text-black font-semibold">
                         12–17 de Noviembre | Bogotá, Colombia
                     </p>
@@ -149,11 +149,11 @@ export default function Hero() {
                 }
 
                 .float-animation {
-                    animation: float 2s ease-in-out infinite;
+                    animation: float 1s ease-in-out infinite;
                 }
 
                 .fade-loop {
-                    animation: pulseMessage 10s ease-in-out infinite;
+                    animation: pulseMessage 12s ease-in-out infinite;
                 }
             `}</style>
         </section>
