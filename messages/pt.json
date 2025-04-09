@@ -17,7 +17,19 @@
     "contactSocial": "@ColombiaWellnessWeek",
     "EnterEmail": "e-mail",
     "ourSponsors": "Nossos patrocinadores",
-    "ourPartners": "Nossos aliados"
+    "ourPartners": "Nossos aliados",
+    "heroTitle": "Semana do Bem-Estar da Colômbia",
+    "heroSubtitle": "12–17 de novembro | Bogotá, Colômbia",
+    "bienestar": {
+      "physical": "Bem-estar Físico",
+      "mental": "Bem-estar Mental",
+      "emotional": "Bem-estar Emocional",
+      "social": "Bem-estar Social",
+      "financial": "Bem-estar Financeiro",
+      "spiritual": "Bem-estar Espiritual",
+      "occupational": "Bem-estar Ocupacional",
+      "environmental": "Bem-estar Ambiental"
+    }
   },
   "epicenter": {
     "title": "COLÔMBIA: O NOVO ",
@@ -104,9 +116,7 @@
         "6 Acessos VIP",
         "Ingressos para executivos/convidados",
         "Presença na estratégia digital",
-        "Logo na identidade visual do evento",
-        "Menção e logo em eventos de networking",
-        "Espaço de networking pré-evento"
+        "Logo na identidade visual do evento"
       ]
     },
     "full": {
@@ -119,9 +129,7 @@
         "4 Acessos VIP",
         "Ingressos para executivos/convidados",
         "Presença na estratégia digital",
-        "Logo na identidade visual do evento",
-        "Menção e logo em eventos de networking",
-        "Espaço de networking pré-evento"
+        "Logo na identidade visual do evento"
       ]
     },
     "platinum": {
@@ -133,10 +141,7 @@
         "Espaço no Silver Village",
         "2 Acessos VIP",
         "Ingressos para executivos/convidados",
-        "Presença na estratégia digital",
-        "Logo na identidade visual do evento",
-        "Menção e logo em eventos de networking",
-        "Espaço de networking pré-evento"
+        "Presença na estratégia digital"
       ]
     },
     "community": {

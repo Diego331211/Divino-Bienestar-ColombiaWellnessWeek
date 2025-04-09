@@ -17,7 +17,19 @@
     "contactSocial": "@ColombiaWellnessWeek",
     "EnterEmail": "Correo electrónico",
     "ourSponsors": "Nuestros patrocinadores",
-    "ourPartners": "Nuestros aliados"
+    "ourPartners": "Nuestros aliados",
+    "heroTitle": "Colombia Wellness Week",
+    "heroSubtitle": "12–17 de Noviembre | Bogotá, Colombia",
+    "bienestar": {
+      "physical": "Bienestar Físico",
+      "mental": "Bienestar Mental",
+      "emotional": "Bienestar Emocional",
+      "social": "Bienestar Social",
+      "financial": "Bienestar Financiero",
+      "spiritual": "Bienestar Espiritual",
+      "occupational": "Bienestar Ocupacional",
+      "environmental": "Bienestar Ambiental"
+    }
   },
   "epicenter": {
     "title": "COLOMBIA: EL NUEVO ",
@@ -80,7 +92,7 @@
   },
   "tiers": {
     "silver": {
-      "name":"Diamante",
+      "name": "Diamante",
       "title": "Patrocinador Plata",
       "benefits": [
         "Mensión de comunicado de prensa y medios",
@@ -91,11 +103,11 @@
         "Precencia en estrategia digital",
         "Logo en bradin del evento",
         "Mensión y logo en eventos de networking",
-        "Espacio de networking previos" 
+        "Espacio de networking previos"
       ]
     },
     "experiential": {
-      "name":"Oro",
+      "name": "Oro",
       "title": "Patrocinador Experiencial",
       "benefits": [
         "Mensión de comunicado de prensa y medios",
@@ -104,13 +116,11 @@
         "6 Accesos VIP",
         "Entradas para ejecutivos/Invitados",
         "Precencia en estrategia digital",
-        "Logo en bradin del evento",
-        "Mensión y logo en eventos de networking",
-        "Espacio de networking previos" 
+        "Logo en bradin del evento"
       ]
     },
     "full": {
-      "name":"Plata",
+      "name": "Plata",
       "title": "Patrocinador Full",
       "benefits": [
         "Mensión de comunicado de prensa y medios",
@@ -118,14 +128,11 @@
         "Espacio en Silver Village",
         "4 Accesos VIP",
         "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital",
-        "Logo en bradin del evento",
-        "Mensión y logo en eventos de networking",
-        "Espacio de networking previos" 
+        "Precencia en estrategia digital"
       ]
     },
     "platinum": {
-      "name":"Bronce",
+      "name": "Bronce",
       "title": "Patrocinador Platino",
       "benefits": [
         "Mensión de comunicado de prensa y medios",
@@ -133,14 +140,11 @@
         "Espacio en Silver Village",
         "2 Accesos VIP",
         "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital",
-        "Logo en bradin del evento",
-        "Mensión y logo en eventos de networking",
-        "Espacio de networking previos" 
+        "Precencia en estrategia digital"
       ]
     },
     "community": {
-      "name":"Community",
+      "name": "Community",
       "title": "Patrocinador Platino",
       "benefits": [
         "Mensión de comunicado de prensa y medios",
