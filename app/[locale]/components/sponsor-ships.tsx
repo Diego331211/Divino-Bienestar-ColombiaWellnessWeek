@@ -12,25 +12,25 @@ export default function SponsorshipTiers() {
   const tiers = [
     {
       name: t.raw("silver.name"),
-      price: "$1,000 USD",
+      price: "$25,000 USD",
       benefits: t.raw("silver.benefits"),
       color: "bg-slate-200",
     },
     {
       name: t.raw("experiential.name"),
-      price: "$2,000 USD",
+      price: "$15,000 USD",
       benefits: t.raw("experiential.benefits"),
       color: "bg-amber-100",
     },
     {
       name: t.raw("full.name"),
-      price: "$5,000 USD",
+      price: "$8,000 USD",
       benefits: t.raw("full.benefits"),
       color: "bg-orange-100",
     },
     {
       name: t.raw("platinum.name"),
-      price: "$10,000 USD",
+      price: "$5,000 USD",
       benefits: t.raw("platinum.benefits"),
       featured: true,
       color: "bg-gradient-to-b from-orange-200 to-amber-100",

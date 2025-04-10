@@ -17,7 +17,19 @@
     "contactSocial": "@ColombiaWellnessWeek",
     "EnterEmail": "Enter your email",
     "ourSponsors": "Our Sponsors",
-    "ourPartners": "Our Partners"
+    "ourPartners": "Our Partners",
+    "heroTitle": "Colombia Wellness Week",
+    "heroSubtitle": "Nov 12–17 | Bogotá, Colombia",
+    "bienestar": {
+      "physical": "Physical Wellness",
+      "mental": "Mental Wellness",
+      "emotional": "Emotional Wellness",
+      "social": "Social Wellness",
+      "financial": "Financial Wellness",
+      "spiritual": "Spiritual Wellness",
+      "occupational": "Occupational Wellness",
+      "environmental": "Environmental Wellness"
+    }
   },
   "epicenter": {
     "title": "COLOMBIA IS THE NEW ",
@@ -105,9 +117,7 @@
         "6 VIP Accesses",
         "Tickets for executives/guests",
         "Presence in digital strategy",
-        "Logo in event branding",
-        "Mention and logo in networking events",
-        "Pre-event networking space"
+        "Logo in event branding"
       ]
     },
     "full": {
@@ -119,10 +129,7 @@
         "Space in Silver Village",
         "4 VIP Accesses",
         "Tickets for executives/guests",
-        "Presence in digital strategy",
-        "Logo in event branding",
-        "Mention and logo in networking events",
-        "Pre-event networking space"
+        "Presence in digital strategy"
       ]
     },
     "platinum": {
@@ -134,10 +141,7 @@
         "Space in Silver Village",
         "2 VIP Accesses",
         "Tickets for executives/guests",
-        "Presence in digital strategy",
-        "Logo in event branding",
-        "Mention and logo in networking events",
-        "Pre-event networking space"
+        "Presence in digital strategy"
       ]
     },
     "community": {
