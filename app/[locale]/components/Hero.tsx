@@ -97,7 +97,7 @@ export default function Hero() {
                         return (
                             <div
                                 key={index}
-                                className="absolute flex items-center gap-2 px-2 py-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full text-white text-xs font-thin shadow-md whitespace-normal md:whitespace-nowrap max-w-[100px] md:max-w-none fade-loop"
+                                className="absolute flex items-center gap-2 px-2 py-1 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full text-white text-xs font-thin shadow-md whitespace-normal lg:whitespace-nowrap max-w-[110px] lg:max-w-none fade-loop"
                                 style={{
                                     left: `calc(50% + ${x}px - 70px)`,
                                     top: `calc(50% + ${y}px - 20px)`,
