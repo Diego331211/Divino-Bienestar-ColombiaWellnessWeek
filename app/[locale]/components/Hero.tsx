@@ -105,7 +105,7 @@ export default function Hero() {
                                 }}
                             >
                                 <span className="text-xs font-thin md:text-4xl">{icon}</span>
-                                <span>{t(`bienestar.${labelKey}`)}</span>
+                                <span className='font-semibold'>{t(`bienestar.${labelKey}`)}</span>
                             </div>
                         );
                     })}
