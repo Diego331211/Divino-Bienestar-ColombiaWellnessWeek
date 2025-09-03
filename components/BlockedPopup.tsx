@@ -4,7 +4,7 @@ interface BlockedPopupProps {
   visible?: boolean;
 }
 
-const BlockedPopup: React.FC<BlockedPopupProps> = ({ visible = true }) => {
+const BlockedPopup: React.FC<BlockedPopupProps> = ({ visible = false }) => {
   if (!visible) return null;
   return (
     <div
