@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import BlockedPopup from "../../components/BlockedPopup";
 import CitySection from "./components/citysection";
 import CounterSection from "./components/counter-section";
 import DataSections from "./components/datasections";
@@ -7,6 +8,9 @@ import SponsorshipTiers from "./components/sponsor-ships";
 import EventTimeline from "./components/timeline";
 
 export default function Home() {
+  // Cambia esto a false si no quieres mostrar el popup
+  const isBlocked = true;
+
   return (
     <>
       {/* Video Background */}
@@ -18,7 +22,9 @@ export default function Home() {
         />
       </div>
 
-      {/* Contenido */}
+      {/* Popup bloqueante por falta de pago */}
+      <BlockedPopup visible={isBlocked} />
+
       <div className="relative">
         <Hero />
         <DataSections />
