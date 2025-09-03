@@ -9,7 +9,7 @@ import EventTimeline from "./components/timeline";
 
 export default function Home() {
   // Cambia esto a false si no quieres mostrar el popup
-  const isBlocked = true;
+  const isBlocked = false;
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       {/* Popup bloqueante por falta de pago */}
-     // <BlockedPopup visible={isBlocked} />
+      <BlockedPopup visible={isBlocked} />
 
       <div className="relative">
         <Hero />
