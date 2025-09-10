@@ -24,8 +24,8 @@ export default function CounterSection() {
       const steps = duration / interval;
 
       const targetCounts = {
-        attendees: 5000,
-        allies: 60,
+        attendees: 2000,
+        allies: 30,
         startups: 30,
       };
 

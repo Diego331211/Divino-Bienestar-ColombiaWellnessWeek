@@ -20,6 +20,7 @@
     "ourPartners": "Our Partners",
     "heroTitle": "Colombia Wellness Week",
     "heroSubtitle": "Nov 12–14 | Bogotá, Colombia",
+    "moreInformation": "More information",
     "bienestar": {
       "physical": "Physical Wellness",
       "mental": "Mental Wellness",
@@ -92,69 +93,48 @@
     }
   },
   "tiers": {
-    "silver": {
-      "name": "Diamond",
-      "title": "Silver Sponsor",
-      "benefits": [
-        "Mention in press release and media",
-        "Access to attendee database",
-        "Space in Silver Village",
-        "10 VIP Accesses",
-        "Tickets for executives/guests",
-        "Presence in digital strategy",
-        "Logo in event branding",
-        "Mention and logo in networking events",
-        "Pre-event networking space"
-      ]
+    "title": "SPONSORSHIP LEVELS",
+    "features": [
+      "Keynote Conference Slot (15 min)",
+      "Panel Participation",
+      "Logo on Main Stage and Branding",
+      "Logo on Web and App",
+      "VIP Passes (Dinner + Lounge)",
+      "Full Access Passes",
+      "Dedicated Social Media Posts",
+      "Mass Email to Database",
+      "Access to Attendee Database",
+      "Stand Size (m²)",
+      "Branding in Networking Areas"
+    ],
+    "packages": {
+      "diamond": {
+        "name": "Diamond",
+        "price": "$25K",
+        "values": ["✓", "✓", "Large", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+      },
+      "gold": {
+        "name": "Gold",
+        "price": "$15K",
+        "values": ["-", "✓", "Medium", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+      },
+      "silver": {
+        "name": "Silver",
+        "price": "$8K",
+        "values": ["-", "✓", "✓", "✓", "4", "10", "2", "1", "✓", "9", "-"]
+      },
+      "bronze": {
+        "name": "Bronze",
+        "price": "$5K",
+        "values": ["-", "-", "✓", "✓", "2", "5", "1", "-", "✓", "6", "-"]
+      },
+      "community": {
+        "name": "Community",
+        "price": "$2K",
+        "values": ["-", "-", "-", "✓", "2", "2", "-", "-", "✓", "3", "-"]
+      }
     },
-    "experiential": {
-      "name": "Gold",
-      "title": "Experiential Sponsor",
-      "benefits": [
-        "Mention in press release and media",
-        "Access to attendee database",
-        "Space in Silver Village",
-        "6 VIP Accesses",
-        "Tickets for executives/guests",
-        "Presence in digital strategy",
-        "Logo in event branding"
-      ]
-    },
-    "full": {
-      "name": "Silver",
-      "title": "Full Sponsor",
-      "benefits": [
-        "Mention in press release and media",
-        "Access to attendee database",
-        "Space in Silver Village",
-        "4 VIP Accesses",
-        "Tickets for executives/guests",
-        "Presence in digital strategy"
-      ]
-    },
-    "platinum": {
-      "name": "Bronze",
-      "title": "Platinum Sponsor",
-      "benefits": [
-        "Mention in press release and media",
-        "Access to attendee database",
-        "Space in Silver Village",
-        "2 VIP Accesses",
-        "Tickets for executives/guests",
-        "Presence in digital strategy"
-      ]
-    },
-    "community": {
-      "name": "Community",
-      "title": "Platinum Sponsor",
-      "benefits": [
-        "Mention in press release and media",
-        "Space in Silver Village",
-        "Presence in digital strategy",
-        "2 VIP Accesses",
-        "Logo in event branding"
-      ]
-    }
+    "note": "✓ = Included in the package"
   },
   "endSection": {
     "title": "MAKING COLOMBIA THE WELLNESS EPICENTER IN LATIN AMERICA",

@@ -20,6 +20,7 @@
     "ourPartners": "Nossos aliados",
     "heroTitle": "Semana do Bem-Estar da Colômbia",
     "heroSubtitle": "12–14 de novembro | Bogotá, Colômbia",
+    "moreInformation": "Mais informações",
     "bienestar": {
       "physical": "Bem-estar Físico",
       "mental": "Bem-estar Mental",
@@ -91,70 +92,48 @@
     }
   },
   "tiers": {
-    "silver": {
-      "name": "Diamante",
-      "title": "Patrocinador Prata",
-      "benefits": [
-        "Menção em comunicado de imprensa e mídia",
-        "Acesso ao banco de dados de participantes",
-        "Espaço no Silver Village",
-        "10 Acessos VIP",
-        "Ingressos para executivos/convidados",
-        "Presença na estratégia digital",
-        "Logo na identidade visual do evento",
-        "Menção e logo em eventos de networking",
-        "Espaço de networking pré-evento"
-      ]
+    "title": "NÍVEIS DE PATROCÍNIO",
+    "features": [
+      "Slot de Conferência Magistral (15 min)",
+      "Participação em Painel",
+      "Logo no Palco Principal e Branding",
+      "Logo na Web e App",
+      "Passes VIP (Jantar + Lounge)",
+      "Passes de Acesso Completo",
+      "Publicações Dedicadas nas Redes",
+      "Email Masivo para Base de Dados",
+      "Acesso à Base de Dados de Participantes",
+      "Tamanho do Stand (m²)",
+      "Branding em Áreas de Networking"
+    ],
+    "packages": {
+      "diamond": {
+        "name": "Diamante",
+        "price": "$25K",
+        "values": ["✓", "✓", "Grande", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+      },
+      "gold": {
+        "name": "Ouro",
+        "price": "$15K",
+        "values": ["-", "✓", "Médio", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+      },
+      "silver": {
+        "name": "Prata",
+        "price": "$8K",
+        "values": ["-", "✓", "✓", "✓", "4", "10", "2", "1", "✓", "9", "-"]
+      },
+      "bronze": {
+        "name": "Bronze",
+        "price": "$5K",
+        "values": ["-", "-", "✓", "✓", "2", "5", "1", "-", "✓", "6", "-"]
+      },
+      "community": {
+        "name": "Comunidade",
+        "price": "$2K",
+        "values": ["-", "-", "-", "✓", "2", "2", "-", "-", "✓", "3", "-"]
+      }
     },
-    "experiential": {
-      "name": "Ouro",
-      "title": "Patrocinador Experiencial",
-      "benefits": [
-        "Menção em comunicado de imprensa e mídia",
-        "Acesso ao banco de dados de participantes",
-        "Espaço no Silver Village",
-        "6 Acessos VIP",
-        "Ingressos para executivos/convidados",
-        "Presença na estratégia digital",
-        "Logo na identidade visual do evento"
-      ]
-    },
-    "full": {
-      "name": "Prata",
-      "title": "Patrocinador Full",
-      "benefits": [
-        "Menção em comunicado de imprensa e mídia",
-        "Acesso ao banco de dados de participantes",
-        "Espaço no Silver Village",
-        "4 Acessos VIP",
-        "Ingressos para executivos/convidados",
-        "Presença na estratégia digital",
-        "Logo na identidade visual do evento"
-      ]
-    },
-    "platinum": {
-      "name": "Bronze",
-      "title": "Patrocinador Platina",
-      "benefits": [
-        "Menção em comunicado de imprensa e mídia",
-        "Acesso ao banco de dados de participantes",
-        "Espaço no Silver Village",
-        "2 Acessos VIP",
-        "Ingressos para executivos/convidados",
-        "Presença na estratégia digital"
-      ]
-    },
-    "community": {
-      "name": "Comunidade",
-      "title": "Patrocinador Platina",
-      "benefits": [
-        "Menção em comunicado de imprensa e mídia",
-        "Espaço no Silver Village",
-        "Presença na estratégia digital",
-        "2 Acessos VIP",
-        "Logo na identidade visual do evento"
-      ]
-    }
+    "note": "✓ = Incluído no pacote"
   },
   "endSection": {
     "title": "TORNAR A COLÔMBIA O EPICENTRO DO BEM-ESTAR NA AMÉRICA LATINA",

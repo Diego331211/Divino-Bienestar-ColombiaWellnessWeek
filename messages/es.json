@@ -20,6 +20,7 @@
     "ourPartners": "Nuestros aliados",
     "heroTitle": "Colombia Wellness Week",
     "heroSubtitle": "12–14 de Noviembre | Bogotá, Colombia",
+    "moreInformation": "Más información",
     "bienestar": {
       "physical": "Bienestar Físico",
       "mental": "Bienestar Mental",
@@ -91,69 +92,48 @@
     }
   },
   "tiers": {
-    "silver": {
-      "name": "Diamante",
-      "title": "Patrocinador Plata",
-      "benefits": [
-        "Mensión de comunicado de prensa y medios",
-        "Acceso de base de datos de asistentes",
-        "Espacio en Silver Village",
-        "10 Accesos VIP",
-        "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital",
-        "Logo en bradin del evento",
-        "Mensión y logo en eventos de networking",
-        "Espacio de networking previos"
-      ]
+    "title": "NIVELES DE PATROCINIO",
+    "features": [
+      "Slot de Conferencia Magistral (15 min)",
+      "Participación en Panel",
+      "Logo en Escenario Principal y Branding",
+      "Logo en Web y App",
+      "Pases VIP (Cena + Lounge)",
+      "Pases de Acceso Completo",
+      "Publicaciones Dedicadas en Redes",
+      "Email Masivo a la Base de Datos",
+      "Acceso a Base de Datos de Asistentes",
+      "Tamaño de Stand (m²)",
+      "Branding en Áreas de Networking"
+    ],
+    "packages": {
+      "diamond": {
+        "name": "Diamante",
+        "price": "$25K",
+        "values": ["✓", "✓", "Grande", "Home", "10", "20", "5", "2", "✓", "18", "✓"]
+      },
+      "gold": {
+        "name": "Oro",
+        "price": "$15K",
+        "values": ["-", "✓", "Mediano", "Home", "6", "15", "3", "1", "✓", "12", "✓"]
+      },
+      "silver": {
+        "name": "Plata",
+        "price": "$8K",
+        "values": ["-", "✓", "✓", "✓", "4", "10", "2", "1", "✓", "9", "-"]
+      },
+      "bronze": {
+        "name": "Bronce",
+        "price": "$5K",
+        "values": ["-", "-", "✓", "✓", "2", "5", "1", "-", "✓", "6", "-"]
+      },
+      "community": {
+        "name": "Comunidad",
+        "price": "$2K",
+        "values": ["-", "-", "-", "✓", "2", "2", "-", "-", "✓", "3", "-"]
+      }
     },
-    "experiential": {
-      "name": "Oro",
-      "title": "Patrocinador Experiencial",
-      "benefits": [
-        "Mensión de comunicado de prensa y medios",
-        "Acceso de base de datos de asistentes",
-        "Espacio en Silver Village",
-        "6 Accesos VIP",
-        "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital",
-        "Logo en bradin del evento"
-      ]
-    },
-    "full": {
-      "name": "Plata",
-      "title": "Patrocinador Full",
-      "benefits": [
-        "Mensión de comunicado de prensa y medios",
-        "Acceso de base de datos de asistentes",
-        "Espacio en Silver Village",
-        "4 Accesos VIP",
-        "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital"
-      ]
-    },
-    "platinum": {
-      "name": "Bronce",
-      "title": "Patrocinador Platino",
-      "benefits": [
-        "Mensión de comunicado de prensa y medios",
-        "Acceso de base de datos de asistentes",
-        "Espacio en Silver Village",
-        "2 Accesos VIP",
-        "Entradas para ejecutivos/Invitados",
-        "Precencia en estrategia digital"
-      ]
-    },
-    "community": {
-      "name": "Community",
-      "title": "Patrocinador Platino",
-      "benefits": [
-        "Mensión de comunicado de prensa y medios",
-        "Espacio en Silver Village",
-        "Precencia en estrategia digital",
-        "2 Accesos VIP",
-        "Logo en bradin del evento"
-      ]
-    }
+    "note": "✓ = Incluido en el paquete"
   },
   "endSection": {
     "title": "PONER A COLOMBIA COMO EL EPICENTRO DEL BIENESTAR EN LATINOAMÉRICA",
