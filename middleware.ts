@@ -6,5 +6,6 @@ export default createMiddleware({
 });
 
 export const config = {
-    matcher:['/','/(es|en|pt)/:path*']
+    // Excluye /api, /_next, /_vercel y archivos estáticos (con punto en el nombre)
+    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
 };

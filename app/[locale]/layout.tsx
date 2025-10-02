@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   description: "La Semana Más Importante del Bienestar en Latinoamérica",
 };
 
+const locales = ['en', 'es', 'pt'];
+
 export default async function RootLayout(props: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -21,12 +23,17 @@ export default async function RootLayout(props: {
   const { children, params } = props;
   const { locale } = await params; // Se espera la resolución de params
 
+  // Validar que el locale sea válido
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
   let messages;
   try {
     // Import asíncrono de las traducciones
     messages = (await import(`../../messages/${locale}.json`)).default;
   } catch (error) {
-    return notFound();
+    notFound();
   }
 
   return (
