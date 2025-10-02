@@ -1,9 +1,8 @@
-import { useTranslations } from 'next-intl';
+'use client';
+
 import Link from 'next/link';
 
 export default function NotFoundPage() {
-  const t = useTranslations();
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-900 to-black text-white px-4">
       <h1 className="text-6xl md:text-8xl font-bold mb-4">404</h1>
