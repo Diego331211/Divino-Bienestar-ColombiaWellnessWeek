@@ -9,7 +9,7 @@ import EventTimeline from "./components/timeline";
 
 export default function Home() {
   // Cambia esto a false si no quieres mostrar el popup
-  const isBlocked = false;
+  const isBlocked = true;
 
   return (
     <>
